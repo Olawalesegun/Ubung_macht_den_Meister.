@@ -17,7 +17,7 @@ public class Player {
 		return player1;
 	}
 	
-	public void setPlayer2ToGuessNumber(int player2) {
+	public void setPlayer2ToGuessNumber() {
 		print("Hi Player 2, kindly enter your guess");
 		player2 = userInput.nextInt();
 	}
