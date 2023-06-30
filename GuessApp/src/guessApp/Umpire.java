@@ -39,8 +39,26 @@ public class Umpire {
 	}
 	
 	public void compareTo() {
-		if(numberToBeGuessed == player1GuessedNumber) {
-			
+		if(numberTobeGuessed == player1GuessedNumber) {
+			if(numberTobeGuessed == player2GuessedNumber) {
+				player.print("Player 1 & Player 2 won");
+			}
+			else if(numberTobeGuessed == player3GuessedNumber){
+				player.print("Player 1 & Player 3 won!!!");
+			}
+			else {
+				player.print("Player 1 won!!!");
+			}
+		}
+		else if(numberTobeGuessed == player2GuessedNumber) {
+			if(numberTobeGuessed == player3GuessedNumber) {
+				player.print("Player 2 and Player 3 won!!!");
+			}else {
+				player.print("Player 2 won!!!");
+			}
+		}
+		else {
+			player.print("Player 3 won!!!");
 		}
 	}
 
