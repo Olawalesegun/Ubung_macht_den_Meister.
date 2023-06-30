@@ -10,7 +10,7 @@ public class Umpire {
 	
 	public void setNumberToBeGuessed(){
 		guess.setNumberToBeGuessed();
-		numberTobeGuessed = guess.getNumberToBeGuessed()
+		numberTobeGuessed = guess.getNumberToBeGuessed();
 	}
 	public int getNumberToBeGuessed() {
 		return numberTobeGuessed;
