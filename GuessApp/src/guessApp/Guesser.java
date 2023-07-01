@@ -10,6 +10,6 @@ public class Guesser {
 	}
 
 	public void setNumberToBeGuessed() {
-		this.numberToBeGuessed = secRan.nextInt(2, 4);
+		this.numberToBeGuessed = secRan.nextInt(1, 9);
 	}
 }
