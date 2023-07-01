@@ -57,8 +57,11 @@ public class Umpire {
 				player.print("Player 2 won!!!");
 			}
 		}
-		else {
+		else if(numberTobeGuessed == player3GuessedNumber){
 			player.print("Player 3 won!!!");
+		}
+		else {
+			player.print("Nobody wins!!!!");
 		}
 	}
 
