@@ -29,9 +29,11 @@ public class Player {
 		print("Hi Player 3, kindly enter your guess");
 		this.player3 = userInput.nextInt();
 	}
-	public int getPlayer3() {
+	
+	public int getPlayer3Guess() {
 		return player3;
 	}
+	
 	public void print(String takeIn) {
 		System.out.println(takeIn);
 	}
